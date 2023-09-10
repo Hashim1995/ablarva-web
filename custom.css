@@ -340,5 +340,7 @@ position: relative;
 
 
 
-
+.blogs-page-header{
+  position: static !important;
+}
 
