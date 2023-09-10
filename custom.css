@@ -1,0 +1,273 @@
+@font-face {
+  font-family: "PrimaryRegular";
+  src: url("./css/fonts/aristotelica/AristotelicaSmallCaps-Regular.ttf")
+    format("truetype"); /* Relative path to the font file */
+}
+
+@font-face {
+  font-family: "PrimaryBold";
+  src: url("./css/fonts/aristotelica/Aristotelica\ Display\ DemiBold\ Trial.ttf")
+    format("truetype"); /* Relative path to the font file */
+}
+
+@font-face {
+  font-family: "VarelaRound";
+  src: url("./css/fonts/Varela_Round/VarelaRound-Regular.ttf")
+    format("truetype"); /* Relative path to the font file */
+}
+
+* {
+  scroll-behavior: smooth !important;
+}
+
+body {
+  font-family: "VarelaRound", sans-serif !important;
+}
+
+.h-img {
+  height: 400px !important;
+  width: 400px !important;
+  margin: 0 auto;
+}
+
+/* .parallax-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+} */
+
+.parallax-element-my {
+  /* The image used */
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(0, 0, 0, 0.5)),
+      to(rgba(0, 0, 0, 0.5))
+    ),
+    url("./img/local/bgImage.jpg");
+  background-image: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./img/local/bgImage.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./img/local/bgImage.jpg");
+
+  /* Set a specific height */
+  min-height: 350px;
+  padding: 1.8rem 0;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: -webkit-box;
+
+  display: -ms-flexbox;
+
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.bg-image {
+  /* Set the background image */
+
+  /* Cover the entire window */
+  padding: 3rem 0;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Set up the content layout */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-height {
+  min-height: 100vh !important;
+}
+
+.custom-gradient-button {
+  box-sizing: border-box;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 5px;
+  color: white !important;
+  font-size: 16px;
+  cursor: pointer;
+  background-image: linear-gradient(to right, #1e90ff, #156eb7);
+  transition: 0.3s ease;
+  font-weight: 600;
+  text-decoration: none !important;
+}
+
+.custom-gradient-button:hover {
+  background-image: linear-gradient(to right, #187acd, #156eb7);
+}
+
+.color-gray {
+  color: gray;
+}
+
+.color-white {
+  color: white !important;
+}
+
+.container-bg-gray {
+  background-color: #f7f7f7;
+}
+
+.color-light-gray {
+  color: rgb(218, 216, 216) !important;
+}
+
+.color-main {
+  color: #156eb7 !important;
+}
+
+.bg-main {
+  background-color: #156eb7 !important;
+}
+
+.bg-dark {
+  background-color: #212429 !important;
+}
+
+.clean-b {
+  margin-bottom: 0 !important;
+}
+
+.clean-t {
+  margin-top: 0 !important;
+}
+
+@media (max-width: 768px) {
+  .custom-gradient-button {
+    display: block; /* Convert to block for 100% width to work properly */
+    text-align: center; /* Center the link text */
+  }
+
+  .wavy-section {
+    padding-top: 20px;
+  }
+
+  .h-img {
+    width: 300px !important;
+    height: 300px !important;
+  }
+}
+
+#responsiveText {
+  font-size: 2.5em !important;
+}
+
+.wavy-section {
+  position: relative !important;
+  padding-top: 50px; /* This should match the height of the SVG for seamless transition */
+}
+
+.svg-container {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 150px; /* Adjust as needed */
+  overflow: hidden;
+}
+
+.svg-container svg {
+  width: 100%;
+  height: 100%;
+}
+
+.rami {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #156eb7;
+  opacity: 0.3;
+}
+
+.product-card {
+  background-color: #f5f6f7;
+  height: 800px;
+  width: 100%;
+  text-align: center;
+  padding: 0.4em;
+  position: relative;
+}
+.product-card-top {
+  background-color: white;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: -55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 1px 8px 24px -2px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px 8px 24px -2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 8px 24px -2px rgba(0, 0, 0, 0.75);
+}
+
+.product-card-badge {
+  background-color: #2ac489;
+  font-size: 14px;
+  position: absolute;
+  top: -5px;
+  width: fit-content;
+  right: -15px;
+  transform: rotate(40deg);
+  color: white;
+  padding: 5px;
+  border-radius: 12px;
+}
+.product-card-badge-incoming {
+  background-color: #173f6c;
+}
+
+.product-card-top img {
+  width: 55px;
+  height: 55px;
+}
+
+.product-card-content {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 36px;
+}
+
+
+
+.product-card-content h1 {
+  font-weight: bold;
+  margin: 14px auto;
+  font-size: 1.9em;
+  line-height: 31px;
+  height: 62px;
+  display: flex;
+  align-items: center;
+}
+
+.product-card-content p {
+  margin: 0px auto;
+  min-height: 52px;
+  display: flex;
+  align-items: center;
+}

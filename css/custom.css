@@ -1,0 +1,9 @@
+.product-card{
+    background-color: white;
+    padding: 1em;
+    border-radius: 12px;
+    height: 250px;
+}
+.product-title{
+    margin: .8em;
+}
