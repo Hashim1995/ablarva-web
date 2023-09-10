@@ -229,9 +229,9 @@ body {
   background-color: #2ac489;
   font-size: 14px;
   position: absolute;
-  top: -5px;
-  width: fit-content;
-  right: -15px;
+top: 2px;
+    width: 75px;
+    right: -9px;
   transform: rotate(40deg);
   color: white;
   padding: 5px;
@@ -260,7 +260,7 @@ body {
   margin: 14px auto;
   font-size: 1.9em;
   line-height: 31px;
-  height: 62px;
+  height: 35px;
   display: flex;
   align-items: center;
 }
