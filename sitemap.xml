@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<url>
+	<loc>https://ablarva.com/</loc>
+	<lastmod>2023-09-15T19:29:42+01:00</lastmod>
+	<priority>1.0</priority>
+	<image:image>
+			<image:loc>https://ablarva.com/img/local/logoMain.png</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://ablarva.com/img/Team/Tofig.webp</image:loc>
+			<image:caption>Tofig, CEO and Founder of Ablarva</image:caption>
+    		<image:title>CEO and Founder Tofig</image:title>
+	</image:image>
+	<image:image>
+			<image:loc>https://ablarva.com/img/Team/Bilal.webp</image:loc>
+			<image:caption>Bilal, COO and Co-Founder of Ablarva</image:caption>
+    		<image:title>COO and Co-Founder Bilal</image:title>
+	</image:image>
+	<image:image>
+			<image:loc>https://ablarva.com/img/Team/Hasim.webp</image:loc>
+			<image:caption>Hasim, CTO and Co-Founder of Ablarva</image:caption>
+    		<image:title>CTO and Co-Founder Hasim</image:title>
+	</image:image>
+	<image:image>
+			<image:loc>https://ablarva.com/img/products/hr.svg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://ablarva.com/img/products/doc.svg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://ablarva.com/img/products/talant.svg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://ablarva.com/img/products/file.svg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://ablarva.com/img/products/message.svg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://ablarva.com/img/blog_image/The-Story-Behind-Ablarva_-Bridging-Ideas-and-Realization.webp</image:loc>
+			<image:caption>A conceptual image illustrating the bridge between ideas and realization, representing Ablarva's mission.</image:caption>
+    		<image:title>The Story Behind Ablarva: Bridging Ideas and Realization</image:title>
+	</image:image>
+	<image:image>
+			<image:loc>https://ablarva.com/img/blog_image/Unveiling-the-Ablarva-Logo_-Symbolism-and-Design-Philosophy.webp</image:loc>
+			<image:caption>The Ablarva logo, with visual elements that embody its design philosophy and symbolism.</image:caption>
+    		<image:title>Unveiling the Ablarva Logo: Symbolism and Design Philosophy</image:title>
+	</image:image>
+	<image:image>
+			<image:loc>https://ablarva.com/img/blog_image/Revolutionizing-Talent-Search-and-Job-Seeking-in-the-Digital-Age.webp</image:loc>
+			 <image:caption>Graphic showing a modern talent search interface and job seeker profiles on Ablarva.</image:caption>
+    		<image:title>Revolutionizing Talent Search and Job Seeking in the Digital Age</image:title>
+	</image:image>
+	<image:image>
+			<image:loc>https://ablarva.com/img/blog_image/Ablarva_s-Multifaceted-Features-for-Optimal-Business-Efficiency.webp</image:loc>
+			<image:caption>Dashboard screenshot showcasing Ablarva's multifaceted features for business efficiency.</image:caption>
+    		<image:title>Ablarva's Multifaceted Features for Optimal Business Efficiency</image:title>
+	</image:image>
+	<image:image>
+			<image:loc>https://ablarva.com/img/blog_image/ablarvavest.webp</image:loc>
+			<image:caption>Handshake graphic symbolizing a successful partnership, representing why Ablarva is your ultimate business partner.</image:caption>
+    		<image:title>Why Ablarva is Your Ultimate Business Partner</image:title>
+	</image:image>
+	<image:image>
+			<image:loc>https://ablarva.com/img/blog_image/Best-Practices-for-Using-Ablarva-Doc-for-Document-Management.webp</image:loc>
+			<image:caption>A user interface of Ablarva-Doc, highlighting features for document management best practices.</image:caption>
+    		<image:title>Best Practices for Using Ablarva-Doc for Document Management</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>https://ablarva.com/Blogs/AllBlogs.html</loc>
+	<lastmod>2023-09-15T19:29:42+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://ablarva.com/Blogs/SingleBlogs/origin-of-ablarva-name-and-mission.html</loc>
+	<lastmod>2023-09-15T19:29:48+01:00</lastmod>
+	<priority>0.6</priority>
+	<image:image>
+			<image:loc>https://ablarva.com/./../../img/blog_image/The-Story-Behind-Ablarva_-Bridging-Ideas-and-Realization.webp</image:loc>
+			<image:caption>A conceptual image illustrating the bridge between ideas and realization, representing Ablarva's mission.</image:caption>
+    		<image:title>The Story Behind Ablarva: Bridging Ideas and Realization</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>https://ablarva.com/Blogs/SingleBlogs/ablarva-logo-symbolism.html</loc>
+	<lastmod>2023-09-15T19:29:48+01:00</lastmod>
+	<priority>0.6</priority>
+	<image:image>
+			<image:loc>https://ablarva.com/./../../img/blog_image/Unveiling-the-Ablarva-Logo_-Symbolism-and-Design-Philosophy.webp</image:loc>
+			<image:caption>The Ablarva logo, with visual elements that embody its design philosophy and symbolism.</image:caption>
+    		<image:title>Unveiling the Ablarva Logo: Symbolism and Design Philosophy</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>https://ablarva.com/Blogs/SingleBlogs/revolutionizing-talent-search-and-job-seeking.html</loc>
+	<lastmod>2023-09-15T19:29:48+01:00</lastmod>
+	<priority>0.6</priority>
+	<image:image>
+			<image:loc>https://ablarva.com/./../../img/blog_image/Revolutionizing-Talent-Search-and-Job-Seeking-in-the-Digital-Age.webp</image:loc>
+			<image:caption>Graphic showing a modern talent search interface and job seeker profiles on Ablarva.</image:caption>
+    		<image:title>Revolutionizing Talent Search and Job Seeking in the Digital Age</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>https://ablarva.com/Blogs/SingleBlogs/unveiling-ablarvas-multifaceted-features-for-optimal-business-efficiency.html</loc>
+	<lastmod>2023-09-15T19:29:48+01:00</lastmod>
+	<priority>0.6</priority>
+	<image:image>
+			<image:loc>https://ablarva.com/./../../img/blog_image/Ablarva_s-Multifaceted-Features-for-Optimal-Business-Efficiency.webp</image:loc>
+			<image:caption>Dashboard screenshot showcasing Ablarva's multifaceted features for business efficiency.</image:caption>
+    		<image:title>Ablarva's Multifaceted Features for Optimal Business Efficiency</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>https://ablarva.com/Blogs/SingleBlogs/why-ablarva-is-your-ultimate-business-partner.html</loc>
+	<lastmod>2023-09-15T19:29:48+01:00</lastmod>
+	<priority>0.6</priority>
+	<image:image>
+			<image:loc>https://ablarva.com/./../../img/blog_image/ablarvavest.webp</image:loc>
+			<image:caption>Handshake graphic symbolizing a successful partnership, representing why Ablarva is your ultimate business partner.</image:caption>
+    		<image:title>Why Ablarva is Your Ultimate Business Partner</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>https://ablarva.com/Blogs/SingleBlogs/document-management-made-easy-best-practices-for-using-ablarva-doc.html</loc>
+	<lastmod>2023-09-15T19:29:48+01:00</lastmod>
+	<priority>0.6</priority>
+	<image:image>
+			<image:loc>https://ablarva.com/./../../img/blog_image/Best-Practices-for-Using-Ablarva-Doc-for-Document-Management.webp</image:loc>
+			<image:caption>A user interface of Ablarva-Doc, highlighting features for document management best practices.</image:caption>
+    		<image:title>Best Practices for Using Ablarva-Doc for Document Management</image:title>
+	</image:image>
+</url>
+</urlset>
