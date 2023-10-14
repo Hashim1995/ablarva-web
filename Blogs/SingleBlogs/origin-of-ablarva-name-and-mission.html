@@ -77,6 +77,9 @@
     <!-- Theme Custom CSS -->
     <link rel="stylesheet" href="./../../css/custom.css" />
 
+  <link rel="stylesheet" href="../../custom.css" />
+
+
     <!-- Head Libs -->
     <script src="./../../vendor/modernizr/modernizr.min.js"></script>
   </head>
@@ -246,13 +249,110 @@
       </div>
 
 
-      
-      <footer id="footer" class="clean-t">
-        <div class="footer-copyright">
-          <div class="container py-2">
-            <div class="row py-4">
-              <div class="col d-flex align-items-center justify-content-center">
-                <p><strong>Ablarva Web App</strong> - © Copyright <strong id="year"></strong> All Rights Reserved.</p>
+ <!-- Contact Us | Footer -->
+      <footer id="newsletter">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 offset-lg-2">
+              <div class="section-heading">
+                <h4>Contact Us &amp; Keep in touch</h4>
+              </div>
+            </div>
+            <div class="col-lg-6 offset-lg-3">
+              <form id="contact-form" class="contact-form" aria-label="Contact Form">
+                <div class="row">
+                  <div class="col-lg-6 col-sm-6">
+                    <fieldset>
+                      <input type="text" id="contact-full-name" name="name" class="custom-input" placeholder="Please enter your fullname..." autocomplete="on" required>
+                    </fieldset>
+                  </div>
+                    <div class="col-lg-6 col-sm-6">
+                    <fieldset>
+                      <input type="email" id="contact-email" name="email" class="custom-input" placeholder="Please enter your email Address..." autocomplete="on" required>
+                    </fieldset>
+                  </div>
+                    <div class="col-lg-6 col-sm-6">
+                    <fieldset>
+                      <input type="text" id="contact-subject" name="subject" class="custom-input" placeholder="Please ente your subject..." autocomplete="on" required>
+                    </fieldset>
+                  </div>
+                    <div class="col-lg-6 col-sm-6">
+                    <fieldset>
+                      <input type="text" id="contact-message" name="message" class="custom-input" placeholder="Please enter your message..." autocomplete="on" required>
+                    </fieldset>
+                  </div>
+                  <br>
+                  <br>
+                  <br>
+              
+                </div>
+                  <div class="col-lg-6 col-sm-6">
+                    <fieldset>
+                      <button type="submit" id="contact-submit" class="main-button">Send Now <i class="fa fa-angle-right"></i></button>
+                    </fieldset>
+                  </div>
+              </form>
+            </div>
+              <div class="col-lg-3">
+                     <video width="320" height="240" autoplay muted loop>
+                     <source src="../../img/local/rocket4.webm" type="video/webm">
+                    </video>
+                </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-3">
+              <div class="footer-widget">
+                <h4>Contact Us</h4>
+                <p><a href="mailto: info@ablarva.com">info@ablarva.com</a></p>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="footer-widget">
+                <h4>Modules</h4>
+                <ul>
+                  <li><a href="#">A module</a></li>
+                  <li><a href="#">B module</a></li>
+                  <li><a href="#">C module</a></li>
+                  <li><a href="#">D module</a></li>
+                  <li><a href="#">E module</a></li>
+                </ul>
+                <ul>
+                  <li><a href="#">F module</a></li>
+                  <li><a href="#">G module</a></li>
+                  <li><a href="#">Pricing</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="footer-widget">
+                <h4>Useful Links</h4>
+                <ul>
+                  <li><a href="#">About ablarva</a></li>
+                  <li><a href="#">Pricing</a></li>
+                  <li><a href="#">Works</a></li>
+                  <li><a href="#">Early access</a></li>
+                  <li><a href="#">Blog</a></li>
+                </ul>
+                <ul>
+                  <li><a href="#">Contact</a></li>
+                  <li><a href="#">Team</a></li>
+
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="footer-widget">
+                <h4>About Our Company</h4>
+                <div class="logo">
+                  <img src="assets/images/white-logo.png" alt="">
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+              </div>
+            </div>
+            <div class="col-lg-12">
+              <div class="copyright-text">
+                <p>Copyright © 2023 Ablarva. All Rights Reserved. 
+            
               </div>
             </div>
           </div>
@@ -271,5 +371,8 @@
 
     <!-- Theme Initialization Files -->
     <script src="./../../js/theme.init.js"></script>
+
+      <script type="module" src="../../firebaseConfig.js"></script>
+
   </body>
 </html>

@@ -17,7 +17,7 @@
 .wave-container::before {   
   content: "";
   width: 100%;
-  height: 827px;
+  height: 127px;
   position: absolute;
   bottom: -0.3%;
   left: 0;
@@ -201,6 +201,7 @@ text-decoration: none;}
   transition: 0.3s;
   font-size: 15px;
   margin-bottom: 20px;
+  color: black;
 }
 
 .first-service .icon {
@@ -346,15 +347,17 @@ The Clients
 
 .the-clients ul.nacc li {
   opacity: 0;
-  transform: translateX(-50px);
+  display: none;
+  transform: translateX(0px);
   position: absolute;
   list-style: none;
-  transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: 0.5s all cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .the-clients ul.nacc li.active {
-  transition-delay: 0.3s;
+  transition-delay: 0.5s;
   position: relative;
+  display: block;
   z-index: 2;
   opacity: 1;
   transform: translateX(0px);
